@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+    <Login>
+        <Login id="TITLE">Đăng nhập - COFFE EXPRESS</Login>
+        <Login id="USERNAME">Tên bàn</Login>
+        <Login id="ERROR_MESSAGE">Thông tin đăng nhập không chính xác hoặc bị khóa</Login>
+        <Login id="ERROR_NAME_TABLE">Tên bàn trống</Login>
+        <Login id="LOGIN">Đăng nhập</Login>
+        <Login id="CHANGE_LANGUAGE">Restart to apply new language</Login>        
+    </Login>
+    <Menu>
+        <Menu id="TITLE">Thực đơn - COFFE EXPRESS</Menu>
+        <Menu id="TABLE">Bàn</Menu>
+    </Menu>
+    <Bill>
+        <Bill id="TITLE">Hóa đơn bàn </Bill>
+        <Bill id="NUMBER_ORDER">STT</Bill>
+        <Bill id="NAME_DRINK">Tên món</Bill>
+        <Bill id="PRICE">Giá</Bill>
+        <Bill id="QUANLITY">Số lượng</Bill>
+        <Bill id="PRINT">In hóa đơn</Bill>
+        <Bill id="PAY">Thanh toán</Bill>
+        <Bill id="PAY_NOTIFICATION">Nhập số điện thoại để tích điểm</Bill>
+        <Bill id="PAY_TITLE">Hẹn gặp lại quý khách</Bill>
+    </Bill>
+    <Chat>
+        <Chat id="HELLO">COFFE EXPRESS Xin chào quý khách</Chat>
+        <Chat id="CANCEL">Hủy: </Chat>
+        <Chat id="ORDER">Gọi: </Chat>
+    </Chat>
+    <Ad>
+        <Ad id="LETGO">Khám phá ngay</Ad>
+    </Ad>
+</language>
+
