@@ -29,10 +29,10 @@ public class DoUongModel implements Serializable {
 
     public DoUongModel(int MaDU, String TenDU, double Gia, Blob HinhAnh, String GhiChu) {
         this.MaDU = MaDU;
-        this.TenDU = TenDU;
+        this.TenDU = TenDU.trim();
         this.Gia = Gia;
         this.HinhAnh = HinhAnh;
-        this.GhiChu = GhiChu;
+        this.GhiChu = GhiChu.trim();
     }
 
     public int getMaDU() {
@@ -48,7 +48,7 @@ public class DoUongModel implements Serializable {
     }
 
     public void setTenDU(String TenDU) {
-        this.TenDU = TenDU;
+        this.TenDU = TenDU.trim();
     }
 
     public double getGia() {
@@ -83,7 +83,7 @@ public class DoUongModel implements Serializable {
     }
 
     public void setGhiChu(String GhiChu) {
-        this.GhiChu = GhiChu;
+        this.GhiChu = GhiChu.trim();
     }
 
 }
