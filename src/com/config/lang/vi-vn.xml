@@ -14,7 +14,7 @@
     </Menu>
     <Bill>
         <Bill id="TITLE">Hóa đơn bàn </Bill>
-        <Bill id="NUMBER_ORDER">STT</Bill>
+        <Bill id="NUMBER_ORDER">Mã</Bill>
         <Bill id="NAME_DRINK">Tên món</Bill>
         <Bill id="PRICE">Giá</Bill>
         <Bill id="QUANLITY">Số lượng</Bill>
